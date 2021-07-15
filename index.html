@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Youtube Studio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/cb07d8fa89.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- LINK TO FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/801298c5dd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+     <!-- SIDE NAV -->
+    <div class="home">
+        
+     <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-6 col-xl-2 col-lg-3 col-2 col-md-4 side-nav d-flex flex-column flex-shrink-0 p-2 " style="height: 100vh;">
+            <div class="d-flex align-items-center justify-content-center text-dark mb-3 p-3">
+                <img src="https://qph.fs.quoracdn.net/main-qimg-217b0173dbf04afb8e6d1ff9a90b870e" class="side-profile" alt="">
+            </div>
+            <p class="fs-6 fw-bold text-center">Your Channel</p>
+            <p class="fs-6 fw-bold text-center ">HYBE LABELS</p>
+            <ul class="nav nav-pills flex-row mb-auto scrollable">
+              <li class="sidebar-li  d-flex align-items-center float-start li-active">
+                <a href="#" class="nav-link text-gray" aria-current="page">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grid-1x2-fill" viewBox="0 0 16 16">
+                    <path d="M0 1a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V1zm9 0a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1V1zm0 9a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1v-5z"/>
+                  </svg>
+                  <span class="ms-3">Dashboard</span>
+                </a>
+              </li>
+              <li class="sidebar-li  d-flex align-items-center float-start">
+                <a href="#" class="nav-link text-gray" aria-current="page">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-collection-play-fill" viewBox="0 0 16 16">
+                    <path d="M2.5 3.5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm2-2a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM0 13a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 16 13V6a1.5 1.5 0 0 0-1.5-1.5h-13A1.5 1.5 0 0 0 0 6v7zm6.258-6.437a.5.5 0 0 1 .507.013l4 2.5a.5.5 0 0 1 0 .848l-4 2.5A.5.5 0 0 1 6 12V7a.5.5 0 0 1 .258-.437z"/>
+                  </svg>
+                  <span class="ms-3">Content</span>
+                </a>
+              </li>
+              <li class="sidebar-li  d-flex align-items-center float-start">
+                <a href="#" class="nav-link text-gray" aria-current="page">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list-ul" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                  </svg>
+                  <span class="ms-3">Playlists</span>
+                </a>
+              </li>
+              <li class="sidebar-li  d-flex align-items-center float-start">
+                <a href="#" class="nav-link text-gray" aria-current="page">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bar-chart-line-fill" viewBox="0 0 16 16">
+                    <path d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1V2z"/>
+                  </svg>
+                  <span class="ms-3">Analytics</span>
+                </a>
+              </li>
+              <li class="sidebar-li  d-flex align-items-center float-start">
+                <a href="#" class="nav-link text-gray" aria-current="page">
+                  <i class="fas fa-closed-captioning"></i>
+                  <span class="ms-3">Subtitles</span>
+                </a>
+              </li>
+              <li class="sidebar-li  d-flex align-items-center float-start">
+                <a href="#" class="nav-link text-gray" aria-current="page">
+                  <i class="far fa-copyright"></i>
+                  <span class="ms-3">Copyright</span>
+                </a>
+              </li>
+              <li class="sidebar-li  d-flex align-items-center float-start">
+                <a href="#" class="nav-link text-gray" aria-current="page">
+                  <i class="fas fa-dollar-sign"></i>
+                  <span class="ms-3">Monetization</span>
+                </a>
+              </li>
+              <li class="sidebar-li  d-flex align-items-center float-start">
+                <a href="#" class="nav-link text-gray" aria-current="page">
+                  <i class="fas fa-magic"></i>
+                  <span class="ms-3">Customization</span>
+                </a>
+              </li>
+              <li class="sidebar-li  d-flex align-items-center float-start">
+                <a href="#" class="nav-link text-gray" aria-current="page">
+                  <i class="fas fa-file-audio"></i>
+                  <span class="ms-3">Audio library</span>
+                </a>
+              </li>
+            </ul>
+            <hr>
+            <ul class="nav nav-pills flex-column mb-auto">
+              <li class="sidebar-li  d-flex align-items-center float-start">
+                <a href="#" class="nav-link text-gray" aria-current="page">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gear-fill" viewBox="0 0 16 16">
+                    <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"/>
+                  </svg>
+                  <span class="ms-3">Setting</span>
+                </a>
+              </li>
+              <li class="sidebar-li  d-flex align-items-center float-start">
+                <a href="#" class="nav-link text-gray" aria-current="page">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-right-dots-fill" viewBox="0 0 16 16">
+                    <path d="M16 2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h9.586a1 1 0 0 1 .707.293l2.853 2.853a.5.5 0 0 0 .854-.353V2zM5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 1a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+                  </svg>
+                  <span class="ms-3">Send feedback</span>
+                </a>
+              </li>
+            </ul>
+            
+          </div>
+          <div class="col-xl-10 col-lg-9 col-10 col-md-8 bg-light">
+    <div class="container">
+        <!-- Current Video -->
+        <div class="column">
+            <div class="box">
+                <div class="boxTitle">Latest video performance</div>
+                <div class="thumbnailContainer">
+                    <img src="https://i.ytimg.com/vi/CuklIb9d3fI/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAfzts98-2l4D-DMB1kt5acY5BJug" class="thumbnail" />
+                </div>
+                <div class="performance fs op">
+                    First 8 hours 37 minutes compared to your typical performance:
+                </div>
+                <div class="statContainer fs">
+                    <div class="stat">
+                        <div>Ranking by views</div>
+                        <div>1 of 10 <i class="fas fa-angle-right ffs"></i></div>
+                    </div>
+                    <div class="stat">
+                        <div>Views</div>
+                        <div>150,345,789<i class="fas fa-arrow-circle-up ffs cg"></i></div>
+                    </div>
+                    <div class="stat">
+                        <div>Impressions click-through rate</div>
+                        <div>8.6<i class="fas fa-arrow-circle-up ffs cg"></i></div>
+                    </div>
+                    <div class="stat">
+                        <div>Average view duration</div>
+                        <div>2:20 <i class="fas fa-arrow-circle-up ffs cg"></i></div>
+                    </div>
+                </div>
+                <div class="link">Go to video analytics</div>
+                <div class="link">See comments (1)</div>
+            </div>
+            <div class="box">
+                <div class="boxTitle commentBoxTitle">Latest Comments</div>
+                <div class="fs op">Comments I haven't responded to.</div>
+                <div>
+                    <div class="comment fs">
+                        <div class="commentLeft">
+                            <div>
+                                <img src="https://lh3.googleusercontent.com/z2Nx3OKs17IJ72sR8tjk124xgfgGJPw80NeOfO9nAvQ34WFWFwqi-ndFQzQKpdZ4rdnGqBH7c0rVTrcaJF4vTHs" />
+                            </div>
+                            <div>
+                                <div class="op">Amie - 5 hours ago</div>
+                                <div>Permission to danceeeee</div>
+                            </div>
+                        </div>
+                        <div class="commentRight">
+                            <img src="https://i.ytimg.com/vi/CuklIb9d3fI/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAfzts98-2l4D-DMB1kt5acY5BJug" />
+                        </div>
+                    </div>
+                    <div class="comment fs">
+                        <div class="commentLeft">
+                            <div>
+                                <img src="https://www.allkpop.com/upload/2021/01/content/071129/1610036968-a82f96aa-d34b-4833-9fb7-431423ce4d9f.jpeg" />
+                            </div>
+                            <div>
+                                <div class="op">Joonie - 11 hours ago</div>
+                                <div>Go to Grammy</div>
+                            </div>
+                        </div>
+                        <div class="commentRight">
+                            <img src="https://i.ytimg.com/vi/CuklIb9d3fI/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAfzts98-2l4D-DMB1kt5acY5BJug" />
+                        </div>
+                    </div>
+                    <div class="comment fs">
+                        <div class="commentLeft">
+                            <div>
+                                <img src="https://static.billboard.com/files/2020/05/mamamoo-solar-spit-it-out-2020-sdy-billboard-1548-1588370043-1024x677.jpg" />
+                            </div>
+                            <div>
+                                <div class="op">PurpleU - 20 hours ago</div>
+                                <div>Billboard hot 1</div>
+                            </div>
+                        </div>
+                        <div class="commentRight">
+                            <img src="https://i.ytimg.com/vi/CuklIb9d3fI/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAfzts98-2l4D-DMB1kt5acY5BJug" />
+                        </div>
+                    </div>
+                    <div class="link">Go to channel comments</div>
+                </div>
+            </div>
+        </div>
+        <!-- News in Studio -->
+        <div class="column">
+            <div class="box">
+                <div class="secondColumnTitle boxTitle">
+                    <div>News</div>
+                    <div>
+                        <i class="fas fa-angle-left ffs op"></i>
+                        <i class="fas fa-angle-right ffs op"></i>
+                    </div>
+                </div>
+                <div>
+                    <img src="news.png" class="secondColumnImage" />
+                </div>
+                <div class="creator">The new Creator Roundup is here</div>
+                <div class="fs op">
+                    Learn more about our live streaming improvements, mid-roll ads
+                    updates, and more
+                </div>
+                <div class="link">Check it out</div>
+            </div>
+            <div class="box">
+                <div class="boxTitle">What's new in Studio</div>
+                <div class="new fs">Resume your interrupted uploads</div>
+                <div class="new fs">Confirm your content is available in HD</div>
+                <div class="new fs">See more Studio updates</div>
+            </div>
+            <div class="box">
+                <div class="boxTitle">Ideas for you</div>
+                <div class="stat fs">
+                    <div class="caption">Make your next production shine</div>
+                    <i class="fas fa-ellipsis-v op"></i>
+                </div>
+                <div class="idea fs">
+                    <div class="ideaText">
+                        Learn how to master different camera angles, light your scenes
+                        withour spending a fortune, and record clead sound.
+                    </div>
+                    
+                        <img src="data:image/png;base64,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" class="ideaPic "/>
+                    
+                </div>
+                <div class="link">
+                    Get Started
+                </div>
+                <div class="down">
+                    <i class="fas fa-angle-down op"></i>
+                </div>
+            </div>
+        </div>
+        <!-- Channel Analysis -->
+        <div class="column">
+            <div class="box">
+                <div class="boxTitle">Channel analytics</div>
+                <div class="fs">Current subscribers</div>
+                <div class="subscriberCount">59,450,589</div>
+                <div>
+                    <span class="fs cg">+1,456,890</span>
+                    <span class="fs op">in last 28 days</span>
+                </div>
+                <div class="divider"></div>
+                <div class="summary">Summary</div>
+                <div class="fs op">Last 28 days</div>
+                <div class="summaryStat">
+                    <div class="fs op">Views</div>
+                    <div class="fs">98M <span class="cg">602%</span></div>
+                </div>
+                <div class="summaryStat">
+                    <div class="fs op">Watch time (hours)</div>
+                    <div class="fs">44,5000 <span class="cg">648%</span></div>
+                </div>
+                <div class="divider"></div>
+                <div class="summaryContainer">
+                    <div class="summary">Top videos</div>
+                    <div class="fs op">Last 48 hours · Views</div>
+                </div>
+                <div class="playlist fs">
+                    <div class="overflowEllipsis">BTS (방탄소년단) 'Dynamite' </div>
+                    <div>1,598,256,789</div>
+                </div>
+                <div class="playlist fs">
+                    <div class="overflowEllipsis">
+                        BTS (방탄소년단) 'Idol' Official MV
+                    </div>
+                    <div>945,256,569</div>
+                </div>
+                <div class="playlist fs">
+                    <div class="overflowEllipsis">
+                        BTS (방탄소년단) 'DNA' Official MV
+                    </div>
+                    <div>1,345,923,593</div>
+                </div>
+                <div class="link">Go to channel analytics</div>
+            </div>
+            <div class="box">
+                <div class="boxTitle commentBoxTitle">Recent Subscribers</div>
+                <div class="fs op">Last 90 days</div>
+                <div class="sub fs">
+                    <div>
+                        <img src="https://external-preview.redd.it/S8c-MeHjqy-35G4rz4pKZwO4rMl9tx4u4bzoqUYaLss.jpg?width=640&crop=smart&auto=webp&s=2bf3836963a2f78b367b99d1768192e8c33c6cbe" />
+                    </div>
+                    <div>
+                        <div>Solarsido</div>
+                        <div class="op">5 M subscribers</div>
+                    </div>
+                </div>
+                <div class="sub fs">
+                    <div>
+                        <img src="https://pbs.twimg.com/media/EwRkKpnVkAAd9N1?format=jpg&name=large" />
+                    </div>
+                    <div>
+                        <div>Jessi</div>
+                        <div class="op">20 M subscribers</div>
+                    </div>
+                </div>
+                <div class="sub fs">
+                    <div>
+                        <img src="https://yt3.ggpht.com/ytc/AKedOLTKwkiuIDMtT7w-C55QJm3-FxExhi3So7EWofYGuQ=s900-c-k-c0x00ffffff-no-rj" />
+                    </div>
+                    <div>
+                        <div>Justin Bieber</div>
+                        <div class="op">62 M subscribers</div>
+                    </div>
+                </div>
+                <div class="link">
+                    See All
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+
+</html>
